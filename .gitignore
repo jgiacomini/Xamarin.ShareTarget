@@ -3,3 +3,6 @@
 ################################################################################
 
 *.suo
+/.vs
+/ShareTarget/.vs/ShareTarget/v16/Server/sqlite3
+/ShareTarget/obj
