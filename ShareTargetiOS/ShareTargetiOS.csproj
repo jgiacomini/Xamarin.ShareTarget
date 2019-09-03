@@ -133,7 +133,7 @@
         </Compile>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="ShareTargetiOS.Extension\ShareTargetiOS.Extension.csproj">
+      <ProjectReference Include="..\ShareTargetiOS.Extension\ShareTargetiOS.Extension.csproj">
         <IsAppExtension>true</IsAppExtension>
         <Project>{FA572F64-BEC1-4230-B527-95E3DE244DE9}</Project>
         <Name>ShareTargetiOS.Extension</Name>
