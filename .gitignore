@@ -1,12 +1,12 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 *.suo
 /.vs
-/ShareTarget/.vs
-/ShareTarget/obj
-/ShareTarget/bin
-/ShareTarget/Release
+/*/.vs
+/*/obj
+/*/bin
+/*/Release
 *.user
 .DS_Store
