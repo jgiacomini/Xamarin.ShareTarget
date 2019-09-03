@@ -29,6 +29,24 @@ namespace ShareTarget
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
+
+            var type = Intent.Type;
+            var action = Intent.Action;
+            if (Intent.ActionSend == action && Intent.Type != null)
+            {
+                if ("text/plain" == type)
+                {
+                    string sharedText = Intent.GetStringExtra(Intent.ExtraText);
+                }
+            }
+            else if (Intent.ActionSendMultiple == action && type != null)
+            {
+                if ("text/plain" == type)
+                {
+                    string sharedText = Intent.GetStringExtra(Intent.ExtraText);
+                }
+            }
+
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
