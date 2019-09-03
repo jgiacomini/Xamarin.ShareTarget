@@ -9,3 +9,4 @@
 /ShareTarget/bin
 /ShareTarget/Release
 *.user
+.DS_Store
