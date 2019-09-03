@@ -46,6 +46,7 @@ namespace ShareTarget
                     string sharedText = Intent.GetStringExtra(Intent.ExtraText);
                 }
             }
+
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
